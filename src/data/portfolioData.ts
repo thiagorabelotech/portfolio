@@ -96,8 +96,8 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
       en: "Engine Development, Editor Scripting & Tooling",
     },
     description: {
-      pt: "Apesar da imagem ilustrar apenas uma das ferramentas que desenvolvi no editor, ela representa apenas parte do meu trabalho na engine. Criada para otimizar o fluxo de level design com spawner, pintura de detalhes em superfícies e substituição em massa de objetos por prefabs, etc, foi pensada para eliminar tarefas repetitivas. Minha atuação na Unity abrange também desenvolvimento de mecânicas, iluminação, Animation Rigging, Cinemachine e construção de telas com UI Toolkit.",
-      en: "Although the image illustrates just one of the tools I developed in the editor, it represents only part of my work in the engine. Created to optimize level design workflows with spawning, surface detail painting, batch prefab replacement, etc., it was designed to eliminate repetitive tasks. My work in Unity also covers mechanics development, lighting, Animation Rigging, Cinemachine, and UI creation with UI Toolkit.",
+      pt: "A imagem ao lado ilustra uma das ferramentas que desenvolvi no editor, criada para otimizar o fluxo de level design com spawner, pintura de detalhes em superfícies e substituição em massa de objetos por prefabs. Minha atuação na Unity abrange também desenvolvimento de mecânicas, iluminação, Animation Rigging, Cinemachine e construção de telas com UI Toolkit.",
+      en: "The image alongside illustrates one of the tools I developed in the editor, created to optimize level design workflows with spawning, surface detail painting, and batch prefab replacement. My work in Unity also covers mechanics development, lighting, Animation Rigging, Cinemachine, and UI creation with UI Toolkit.",
     },
     logoType: "icon",
     logoAccentColor: "#fff", // "#38bdf8"

@@ -67,7 +67,7 @@ export function ProjectCard({
 
           {/* Subtitle if available (larger than description) */}
           {project.subtitle && (
-            <h4 className="text-base sm:text-lg font-medium text-neutral-300 mt-2 tracking-wide">
+            <h4 className="text-base sm:text-lg font-medium text-white mt-2 tracking-wide">
               {project.subtitle[locale]}
             </h4>
           )}
