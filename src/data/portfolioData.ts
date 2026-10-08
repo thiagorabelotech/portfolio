@@ -83,6 +83,10 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     },
     logoType: "text",
     logoValue: "</>",
+     externalLink: {
+      url: "https://thiagorabelodev.netlify.app/",
+      label: "thiagorabelodev.netlify.app",
+    },
     imageSrc: "/images/projects/BG_Portfolio.png",
     imageAlt: "Portfolio Website Design & Architecture",
     technologies: ["Figma", "React", "Next.js", "TypeScript", "Tailwind CSS"],
