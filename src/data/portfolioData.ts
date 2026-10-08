@@ -56,8 +56,8 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
       en: "Enterprise Tax & Fiscal Management Platform",
     },
     description: {
-      pt: "Atuação no desenvolvimento e manutenção contínua de sistema corporativo de cálculo e gestão fiscal durante a fase de expansão da empresa para diversas sedes no país. Trabalho focado em demandas de sprint, resolução de bugs em telas e regras de negócio, implementação de novos recursos no front-end com Angular, suporte e regras no back-end em C# com SQL Server, além do acompanhamento do fluxo de mensageria com RabbitMQ para alto volume de processamento de notas fiscais.",
-      en: "Full stack engineering and continuous maintenance of an enterprise fiscal management platform during nationwide company expansion. Handled sprint tasks including UI and business logic bug fixes, feature development in Angular, back-end service maintenance in C# with SQL Server, and monitoring RabbitMQ messaging queues processing high volumes of fiscal invoices.",
+      pt: "Atuação no desenvolvimento e manutenção contínua de sistema corporativo de cálculo e gestão fiscal. Trabalho focado em demandas de sprint, resolução de bugs em telas e regras de negócio, implementação de novos recursos no front-end, suporte e regras no back-end e banco de dados, além do acompanhamento do fluxo de mensageria com RabbitMQ para alto volume de processamento de notas fiscais.",
+      en: "Development and continuous maintenance of an enterprise tax and fiscal management system. Focused on sprint tasks, fixing UI and business logic bugs, implementing new front-end features, supporting back-end services and databases, alongside monitoring RabbitMQ messaging queues for high-volume invoice processing.",
     },
     logoType: "icon",
     logoAccentColor: "#fff", // "#f97316"
@@ -74,12 +74,12 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     sectionId: "code",
     title: "PORTFOLIO",
     subtitle: {
-      pt: "Aplicação Web & Showcase de Engenharia",
-      en: "Personal Web Application & Engineering Showcase",
+      pt: "Aplicação Web & Showcase",
+      en: "Web Application & Showcase",
     },
     description: {
-      pt: "Interface desenhada no Figma e desenvolvida com Next.js, React e TypeScript. Estrutura orientada a componentes modulares, layout responsivo e estética dark minimalista com foco em fluidez visual e boa experiência de navegação.",
-      en: "Interface designed in Figma and developed with Next.js, React, and TypeScript. Built with a modular component architecture, responsive layout, and a minimalist dark aesthetic focused on fluid visual flow and seamless navigation.",
+      pt: "Interface prototipada no Figma e desenvolvida com Next.js, React, TypeScript e Tailwind CSS. Estrutura orientada a componentes modulares, layout responsivo e estética dark minimalista com foco em fluidez visual e boa experiência de navegação.",
+      en: "Interface prototyped in Figma and developed with Next.js, React, TypeScript, and Tailwind CSS. Built with a modular component architecture, responsive layout, and a minimalist dark aesthetic focused on visual fluidity and a smooth navigation experience.",
     },
     logoType: "text",
     logoValue: "</>",
@@ -96,13 +96,13 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
       en: "Engine Development, Editor Scripting & Tooling",
     },
     description: {
-      pt: "Com 4 a 5 anos de prática na Unity explorando C#, mecânicas de gameplay, iluminação de cenas, Cinemachine e Animation Rigging, este projeto destaca o desenvolvimento de ferramentas de suporte para o editor (Editor Scripting). A ferramenta exibida (Twilight) acelera fluxos de level design ao viabilizar spawner paramétrico, pintura de detalhes em malhas e substituição em massa de objetos por prefabs, integrando conceitos modernos de UI Toolkit e prototipagem prévia de interface.",
-      en: "With 4 to 5 years of hands-on experience in Unity utilizing C#, gameplay mechanics, scene lighting, Cinemachine, and Animation Rigging, this project highlights custom editor tooling. The featured tool (Twilight) optimizes level design workflows through parametric spawning, surface detail painting, and batch prefab replacement, incorporating modern UI Toolkit patterns and interface design to eliminate repetitive scene setup.",
+      pt: "Apesar da imagem ilustrar apenas uma das ferramentas que desenvolvi no editor, ela representa apenas parte do meu trabalho na engine. Criada para otimizar o fluxo de level design com spawner, pintura de detalhes em superfícies e substituição em massa de objetos por prefabs, etc, foi pensada para eliminar tarefas repetitivas. Minha atuação na Unity abrange também desenvolvimento de mecânicas, iluminação, Animation Rigging, Cinemachine e construção de telas com UI Toolkit.",
+      en: "Although the image illustrates just one of the tools I developed in the editor, it represents only part of my work in the engine. Created to optimize level design workflows with spawning, surface detail painting, batch prefab replacement, etc., it was designed to eliminate repetitive tasks. My work in Unity also covers mechanics development, lighting, Animation Rigging, Cinemachine, and UI creation with UI Toolkit.",
     },
     logoType: "icon",
     logoAccentColor: "#fff", // "#38bdf8"
     imageSrc: "/images/projects/BG_UnityTools.png",
-    imageAlt: "Unity Twilight Custom Tool in Action",
+    imageAlt: "Unity Twilite Custom Tool in Action",
     technologies: ["Unity", "C#"],
   },
   {
@@ -110,12 +110,12 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     sectionId: "3d",
     title: "3D ASSETS",
     subtitle: {
-      pt: "Modelagem de Personagens & Assets Estilizados",
-      en: "Stylized Character Modeling & Game Assets",
+      pt: "Personagens Estilizados & Cenários Modulares para Games",
+      en: "Stylized Characters & Modular Environments for Games",
     },
     description: {
-      pt: "Pipeline de produção 3D com foco em modelagem orgânica e personagens estilizados inspirados no padrão visual de produções contemporâneas como Fortnite. Processo executado desde a blocagem, escultura e retopologia no Blender até o mapeamento UV e texturização PBR no Substance 3D Painter. Foco em topologia limpa voltada para renderização em tempo real (25k a 45k triângulos), poses para apresentação e modelagem de peças modulares para integração em jogos.",
-      en: "3D production pipeline focused on organic modeling and stylized characters inspired by contemporary titles such as Fortnite. Complete workflow spanning blocking, sculpting, and retopology in Blender to UV unwrapping and PBR texturing in Substance 3D Painter. Emphasizes clean, game-ready topology (25k to 45k tris), presentation posing, and modular asset creation for game engines.",
+      pt: "Criação de modelos 3D voltados para jogos, com foco principal em personagens estilizados, inspirados na identidade visual do Fortnite, e também na construção de cenários modulares. Processo executado desde a blocagem até a retopologia, e a texturização no Substance Painter, sempre preparando os assets para rodar direto na engine.",
+      en: "Creation of 3D models for games, with a primary focus on stylized characters, inspired by Fortnite's visual identity, as well as building modular environments. Workflow executed from blocking to retopology, with texturing in Substance Painter, always preparing assets to run directly in the engine.",
     },
     logoType: "icon",
     logoAccentColor: "#fff", // "#a855f7"
