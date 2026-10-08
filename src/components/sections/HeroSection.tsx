@@ -54,7 +54,7 @@ export function HeroSection({ profile, locale }: HeroSectionProps) {
           {profile.role[locale]}
         </p>
 
-        <p className="mt-6 text-sm sm:text-base text-neutral-300/85 font-light leading-relaxed max-w-lg drop-shadow-md">
+        <p className="mt-6 text-sm sm:text-base text-neutral-300/85 font-light leading-relaxed max-w-xl drop-shadow-md">
           {profile.summary[locale]}
         </p>
       </div>

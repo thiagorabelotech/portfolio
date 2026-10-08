@@ -151,6 +151,7 @@ export function getTechnologyIconSrc(techName: string): string | null {
   if (norm.includes("unity")) return "/images/tech/UnityTools_icon.svg";
   if (norm.includes("blender")) return "/images/tech/Blender_icon.png";
   if (norm.includes("substance")) return "/images/tech/SubstancePainter_icon.png";
+  if (norm.includes("figma")) return "/images/tech/Figma_icon.png";
 
   return null;
 }
