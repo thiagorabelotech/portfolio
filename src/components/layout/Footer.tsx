@@ -141,8 +141,8 @@ export function Footer({ profile, locale, onToggleLocale }: FooterProps) {
         </p>
         <p className="mt-1 text-neutral-600">
           {locale === "pt"
-            ? "Desenvolvido com Next.js, TypeScript e Tailwind CSS"
-            : "Engineered with Next.js, TypeScript & Tailwind CSS"}
+            ? "Desenvolvido com React, Next, TypeScript e Tailwind"
+            : "Engineered with React, Next, TypeScript & Tailwind"}
         </p>
       </div>
     </footer>
