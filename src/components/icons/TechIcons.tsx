@@ -203,7 +203,7 @@ export function TechBadgeWithTooltip({ name }: { name: string }) {
       </div>
 
       {/* Floating Tooltip */}
-      <div className="absolute -top-9 left-1/2 -translate-x-1/2 px-2.5 py-1 text-xs font-mono font-medium text-white bg-neutral-900/95 border border-neutral-700/80 rounded-md shadow-xl pointer-events-none opacity-0 group-hover/tech:opacity-100 transition-all duration-150 whitespace-nowrap z-30 scale-95 group-hover/tech:scale-100">
+      <div className="absolute -top-9 left-1/2 -translate-x-1/2 px-2.5 py-1 text-xs font-medium text-white bg-neutral-900/95 border border-neutral-700/80 rounded-md shadow-xl pointer-events-none opacity-0 group-hover/tech:opacity-100 transition-all duration-150 whitespace-nowrap z-30 scale-95 group-hover/tech:scale-100">
         {name}
         <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-neutral-900 border-b border-r border-neutral-700 rotate-45" />
       </div>

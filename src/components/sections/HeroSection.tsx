@@ -83,7 +83,7 @@ export function HeroSection({ profile, locale }: HeroSectionProps) {
           </span>
 
           {copied && (
-            <span className="absolute -top-7 left-1/2 -translate-x-1/2 text-[11px] text-emerald-400 font-mono tracking-tight whitespace-nowrap bg-neutral-900/90 px-2 py-0.5 rounded border border-emerald-500/40 shadow-sm pointer-events-none">
+            <span className="absolute -top-7 left-1/2 -translate-x-1/2 text-[11px] text-emerald-400 font-medium tracking-tight whitespace-nowrap bg-neutral-900/90 px-2 py-0.5 rounded border border-emerald-500/40 shadow-sm pointer-events-none">
               {locale === "pt" ? "Copiado!" : "Copied!"}
             </span>
           )}

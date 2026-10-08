@@ -83,7 +83,7 @@ export function ProjectCard({
               href={project.externalLink.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 mt-5 text-sm font-mono text-neutral-400 hover:text-white transition-colors cursor-pointer"
+              className="group inline-flex items-center gap-2 mt-5 text-sm text-neutral-400 hover:text-white transition-colors cursor-pointer"
               title={`Acessar ${project.externalLink.label}`}
             >
               <Globe className="w-4 h-4 text-neutral-400 group-hover:text-white transition-colors" />
@@ -117,7 +117,7 @@ export function ProjectCard({
             </div>
           ) : (
             <div className="w-full h-full rounded-xl border border-dashed border-neutral-800 bg-neutral-950/40 flex flex-col items-center justify-center text-neutral-600">
-              <span className="font-mono text-xs uppercase tracking-wider">
+              <span className="text-xs uppercase tracking-wider">
                 Preview Asset
               </span>
             </div>

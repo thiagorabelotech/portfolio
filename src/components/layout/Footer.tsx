@@ -1,9 +1,10 @@
 "use client";
 
 import React from "react";
-import { ArrowUp, Mail, ExternalLink, Globe } from "lucide-react";
+import { ArrowUp, Mail, Globe } from "lucide-react";
 import { PersonalProfile, SupportedLocale } from "@/types/portfolio";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons/NavIcons";
+import { ArtstationProjectIcon } from "@/components/icons/ProjectIcons";
 
 interface FooterProps {
   profile: PersonalProfile;
@@ -27,7 +28,7 @@ export function Footer({ profile, locale, onToggleLocale }: FooterProps) {
         <div className="flex justify-center md:justify-start">
           <button
             onClick={scrollToTop}
-            className="group flex items-center gap-2 py-2 text-neutral-400 hover:text-white transition-colors duration-200 text-xs font-mono tracking-wider cursor-pointer focus:outline-none"
+            className="group flex items-center gap-2 py-2 text-neutral-400 hover:text-white transition-colors duration-200 text-xs tracking-wider cursor-pointer focus:outline-none"
             title={locale === "pt" ? "Voltar ao topo" : "Back to top"}
             aria-label={locale === "pt" ? "Voltar ao topo" : "Back to top"}
           >
@@ -37,52 +38,60 @@ export function Footer({ profile, locale, onToggleLocale }: FooterProps) {
         </div>
 
         {/* Center Column: Redes Sociais */}
-        <div className="flex justify-center items-center gap-3">
+        <div className="flex justify-center items-center gap-5">
           <a
             href={profile.socialLinks.email}
-            className="p-2.5 rounded-lg border border-neutral-800/80 bg-neutral-900/60 text-neutral-400 hover:text-white hover:border-neutral-600 transition-colors cursor-pointer"
+            className="p-1 text-neutral-400 hover:text-white transition-colors duration-200 cursor-pointer"
             title="Email"
             aria-label="Send Email"
           >
-            <Mail className="w-4 h-4" />
+            <Mail className="w-[18px] h-[18px]" />
           </a>
 
-          {profile.socialLinks.github && (
-            <a
-              href={profile.socialLinks.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2.5 rounded-lg border border-neutral-800/80 bg-neutral-900/60 text-neutral-400 hover:text-white hover:border-neutral-600 transition-colors cursor-pointer"
-              title="GitHub"
-              aria-label="GitHub Profile"
+          {/* GitHub - Desabilitado com Tooltip em construção */}
+          <div className="relative group/social flex items-center justify-center">
+            <button
+              type="button"
+              disabled
+              aria-disabled="true"
+              className="p-1 text-neutral-600 hover:text-neutral-500 cursor-not-allowed select-none transition-colors duration-200"
+              aria-label="GitHub (em construção)"
             >
-              <GitHubIcon size={17} />
-            </a>
-          )}
+              <GitHubIcon size={18} />
+            </button>
+            <div className="absolute -top-9 left-1/2 -translate-x-1/2 px-2.5 py-1 text-xs font-medium text-neutral-300 bg-neutral-900/95 border border-neutral-700/80 rounded-md shadow-xl pointer-events-none opacity-0 group-hover/social:opacity-100 transition-all duration-150 whitespace-nowrap z-30 scale-95 group-hover/social:scale-100">
+              {locale === "pt" ? "GitHub em construção" : "GitHub under construction"}
+              <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-neutral-900 border-b border-r border-neutral-700 rotate-45" />
+            </div>
+          </div>
 
-          {profile.socialLinks.linkedin && (
-            <a
-              href={profile.socialLinks.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2.5 rounded-lg border border-neutral-800/80 bg-neutral-900/60 text-neutral-400 hover:text-white hover:border-neutral-600 transition-colors cursor-pointer"
-              title="LinkedIn"
-              aria-label="LinkedIn Profile"
+          {/* LinkedIn - Desabilitado com Tooltip em construção */}
+          <div className="relative group/social flex items-center justify-center">
+            <button
+              type="button"
+              disabled
+              aria-disabled="true"
+              className="p-1 text-neutral-600 hover:text-neutral-500 cursor-not-allowed select-none transition-colors duration-200"
+              aria-label="LinkedIn (em construção)"
             >
-              <LinkedInIcon size={17} />
-            </a>
-          )}
+              <LinkedInIcon size={18} />
+            </button>
+            <div className="absolute -top-9 left-1/2 -translate-x-1/2 px-2.5 py-1 text-xs font-medium text-neutral-300 bg-neutral-900/95 border border-neutral-700/80 rounded-md shadow-xl pointer-events-none opacity-0 group-hover/social:opacity-100 transition-all duration-150 whitespace-nowrap z-30 scale-95 group-hover/social:scale-100">
+              {locale === "pt" ? "LinkedIn em construção" : "LinkedIn under construction"}
+              <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-neutral-900 border-b border-r border-neutral-700 rotate-45" />
+            </div>
+          </div>
 
           {profile.socialLinks.artstation && (
             <a
               href={profile.socialLinks.artstation}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2.5 rounded-lg border border-neutral-800/80 bg-neutral-900/60 text-neutral-400 hover:text-white hover:border-neutral-600 transition-colors cursor-pointer"
+              className="p-1 text-neutral-400 hover:text-white transition-colors duration-200 cursor-pointer flex items-center justify-center"
               title="ArtStation"
               aria-label="ArtStation Profile"
             >
-              <ExternalLink className="w-4 h-4" />
+              <ArtstationProjectIcon size={18} />
             </a>
           )}
         </div>
@@ -92,7 +101,7 @@ export function Footer({ profile, locale, onToggleLocale }: FooterProps) {
           {onToggleLocale && (
             <button
               onClick={onToggleLocale}
-              className="group flex items-center gap-2 py-2 text-neutral-400 hover:text-white transition-colors duration-200 text-xs font-mono tracking-wider cursor-pointer focus:outline-none"
+              className="group flex items-center gap-2 py-2 text-neutral-400 hover:text-white transition-colors duration-200 text-xs tracking-wider cursor-pointer focus:outline-none"
               title={
                 locale === "pt"
                   ? "Alternar idioma para Inglês"
@@ -126,7 +135,7 @@ export function Footer({ profile, locale, onToggleLocale }: FooterProps) {
       </div>
 
       {/* Copyright & Info */}
-      <div className="mt-10 text-center text-xs text-neutral-500 font-mono tracking-wider">
+      <div className="mt-10 text-center text-xs text-neutral-500 tracking-wider">
         <p>
           {profile.name} • {profile.role[locale]}
         </p>
