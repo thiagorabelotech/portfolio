@@ -11,8 +11,8 @@ export const PERSONAL_PROFILE: PersonalProfile = {
     en: "Full Stack Developer",
   },
   summary: {
-    pt: "Desenvolvedor de software atuando de ponta a ponta na construção e manutenção de produtos, do front-end ao back-end, adotando a tecnologia mais adequada para cada desafio. Experiência complementar no desenvolvimento de ferramentas interativas na Unity. Natural de Goiânia-GO, atualmente cursando Análise e Desenvolvimento de Sistemas.",
-    en: "Full stack software developer engineering and maintaining multiplatform products from front-end to back-end, selecting the most suitable technology for each challenge. Complementary background in interactive tooling within Unity. Based in Goiânia, Brazil, currently pursuing a degree in Systems Analysis and Development.",
+    pt: "Desenvolvedor de software atuando no desenvolvimento e manutenção de produtos, do front-end ao back-end. Experiência complementar com Unity e modelagem 3D. Natural de Goiânia-GO, atualmente cursando Análise e Desenvolvimento de Sistemas.",
+    en: "Software developer working on product development and maintenance, from front-end to back-end. Complementary background in Unity and 3D modeling. Based in Goiânia, Brazil, currently pursuing a degree in Systems Analysis and Development.",
   },
   email: "thiagorabelotech@gmail.com",
   socialLinks: {
@@ -60,7 +60,7 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
       en: "Full stack engineering and continuous maintenance of an enterprise fiscal management platform during nationwide company expansion. Handled sprint tasks including UI and business logic bug fixes, feature development in Angular, back-end service maintenance in C# with SQL Server, and monitoring RabbitMQ messaging queues processing high volumes of fiscal invoices.",
     },
     logoType: "icon",
-    logoAccentColor: "#f97316",
+    logoAccentColor: "#fff", // "#f97316"
     externalLink: {
       url: "https://sittax.com.br",
       label: "sittax.com.br",
@@ -78,8 +78,8 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
       en: "Personal Web Application & Engineering Showcase",
     },
     description: {
-      pt: "Concebido sob a prática de Design First, partindo de prototipagem no Figma com estudo de UX/UI, harmonia de cores e design tokens antes da escrita de código. Desenvolvido para refletir minha base técnica no ecossistema React com TypeScript, utilizando Next.js para renderização de alta performance e Tailwind CSS para estilização utilitária e responsiva em uma arquitetura modular de componentes.",
-      en: "Engineered with a Design First mindset, starting from Figma prototyping with UX/UI research, color harmony, and design tokens prior to implementation. Built to reflect my technical foundation in the React and TypeScript ecosystem, leveraging Next.js for high-performance rendering and Tailwind CSS for responsive styling across a modular component architecture.",
+      pt: "Interface desenhada no Figma e desenvolvida com Next.js, React e TypeScript. Estrutura orientada a componentes modulares, layout responsivo e estética dark minimalista com foco em fluidez visual e boa experiência de navegação.",
+      en: "Interface designed in Figma and developed with Next.js, React, and TypeScript. Built with a modular component architecture, responsive layout, and a minimalist dark aesthetic focused on fluid visual flow and seamless navigation.",
     },
     logoType: "text",
     logoValue: "</>",
@@ -100,7 +100,7 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
       en: "With 4 to 5 years of hands-on experience in Unity utilizing C#, gameplay mechanics, scene lighting, Cinemachine, and Animation Rigging, this project highlights custom editor tooling. The featured tool (Twilight) optimizes level design workflows through parametric spawning, surface detail painting, and batch prefab replacement, incorporating modern UI Toolkit patterns and interface design to eliminate repetitive scene setup.",
     },
     logoType: "icon",
-    logoAccentColor: "#38bdf8",
+    logoAccentColor: "#fff", // "#38bdf8"
     imageSrc: "/images/projects/BG_UnityTools.png",
     imageAlt: "Unity Twilight Custom Tool in Action",
     technologies: ["Unity", "C#"],
@@ -118,7 +118,7 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
       en: "3D production pipeline focused on organic modeling and stylized characters inspired by contemporary titles such as Fortnite. Complete workflow spanning blocking, sculpting, and retopology in Blender to UV unwrapping and PBR texturing in Substance 3D Painter. Emphasizes clean, game-ready topology (25k to 45k tris), presentation posing, and modular asset creation for game engines.",
     },
     logoType: "icon",
-    logoAccentColor: "#a855f7",
+    logoAccentColor: "#fff", // "#a855f7"
     externalLink: {
       url: "https://www.artstation.com/thiagorabelodev3d",
       label: "artstation.com/thiagorabelodev3d",
