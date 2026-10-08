@@ -85,7 +85,7 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     logoValue: "</>",
     imageSrc: "/images/projects/BG_Portfolio.png",
     imageAlt: "Portfolio Website Design & Architecture",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    technologies: ["Figma", "React", "Next.js", "TypeScript", "Tailwind CSS"],
   },
   {
     id: "unity-tools",
